@@ -1,0 +1,187 @@
+
+:root {
+    --bg-color:#1f242d;
+    --second-bg-color:#323946;
+    --text-color:#fff;
+    --main-color:#0ef;
+}
+
+/* .about-content{
+    border-radius: 5%;    
+    text-align: center;
+} */
+.about-content h2{
+   
+    text-align: center;
+    
+}
+span3{
+    color: #FF6666;
+    font-size: 2rem;
+}
+
+.about-content{
+  margin-bottom: .1rem;
+}
+
+.about-content h3{
+    text-decoration: underline;
+    text-decoration-color: #00bfff;
+    
+
+}
+
+.vessel-section{
+  padding-top: 0;
+  padding-bottom: 0;
+  
+}
+
+.vessel-text{
+  
+  text-align: center;
+  display: flex;
+    flex-direction: column;
+    justify-content: center; /* Align items vertically in the center */
+    align-items: center; /* Align items horizontally in the center */
+    
+}
+.vessel-text p{
+font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+.vessel-text h3{
+font-size: 2.6rem;
+}
+
+.vessel-holder{
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.vessel-image,
+.vessel-text {
+    flex: 1;
+}
+
+#images img:nth-child(1){
+  margin-bottom: 1.5rem;
+  height: 35vw;
+  width:35vw;
+  border: 4px solid #0ef;
+  
+}
+#images img:nth-child(2){
+  margin-bottom: 1.5rem;
+  height: 35vw;
+  width:32vw;
+  border: 4px solid #0ef;
+  margin-left: 2.5rem;
+  
+}
+
+
+.about-content h3 span1, .total-experience{
+    color:  #FFA500;
+}
+
+span1{
+    color:  #FFA500; 
+}
+
+.image-holder{
+    display: block;
+    
+}
+
+.image-holder div {
+    padding: 9rem 9% 2rem; 
+}
+
+.cat-cert{
+  font-size: 3rem; 
+      
+  color: #FFA500;
+  
+  width: 80%; /* Set the width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+  text-align: center; /* Center the text within the container */
+}
+
+.cat-cert p {
+    display: inline-block; /* Make the paragraph behave like an inline-block element */
+    width: 75%; /* Set the width of the paragraph to approximately three-fourths (75%) of the container */
+    text-align: right; /* Align the text to the left within the paragraph */
+    text-decoration: underline;
+      text-decoration-color: #00bfff; 
+  }
+
+/* ------------------------- CSS for  cat-Certifications page----------------------------------------------------------------- */
+
+.container {
+    /* Set the width and center the container */
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .about-content {
+   /* border: 2px solid red; */
+    margin-top: 8.5rem; /* Adjust the value to reduce the vertical distance */
+    padding: 10px; 
+    border-radius: 5%;    
+    text-align: center;
+    
+    
+  }
+
+.cat-cert-img{
+  width: 100%; /* Set the width of the container */
+  display: flex; /* Use flexbox layout */
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.cat-cert-img img {
+    width: calc(100% / 3); /* Set the width of each image to one-third of the container width */
+    height: 32vw; /* Maintain aspect ratio */
+    box-sizing: border-box; /* Include padding and border in the image's total width */
+    padding: 10px; /* Optional: Add padding to create space between images */
+    border-radius: 10%;
+    transition: transform 1s;
+    border: 4px solid #323946;
+  }
+
+  .cat-cert-img img:nth-child(even):hover{
+
+    transform: scale(1.2);
+    border: 4px solid #FFA500;
+
+  }
+  .cat-cert-img img:nth-child(odd):hover{
+
+    transform: scale(1.2);
+    border: 4px solid #0ef;
+
+  }
+  @media only screen and (max-width: 975px) { 
+    .cat-cert-img img {
+      width: 35vw; 
+      
+      display: grid;
+        grid-template-columns: 1fr 1fr; /* Change layout to display only one image at 768px or less */
+    }
+  }
+  
+ 
+
+/* Medium devices (tablets, 768px and down) */
+@media only screen and (max-width: 768px) { 
+  .cat-cert-img img {
+    width: 100vw;
+   height: 50vw;
+    display: grid;
+      grid-template-columns: 1fr; /* Change layout to display only one image at 768px or less */
+  }
+}
+

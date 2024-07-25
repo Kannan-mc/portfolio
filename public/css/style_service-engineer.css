@@ -1,0 +1,36 @@
+
+
+.about-content{
+    border-radius: 10%;
+    
+    border:2px solid #0ef;
+    text-align: center;
+}
+.about-content h2{
+   
+    text-align: center;
+    
+}
+.about-content h3{
+    text-decoration: underline;
+    text-decoration-color: #00bfff;
+    
+
+}
+
+.certified {
+    color:  #FFA500;
+}
+.about-content span1{
+    color:  #FFA500;
+}
+
+a {
+    color:white; 
+    text-decoration: none; /* Optional: Removes underline */
+  }
+
+ .oem-cert a:hover {
+    
+    color:#FFA500
+  }

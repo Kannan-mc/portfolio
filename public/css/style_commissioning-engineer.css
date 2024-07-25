@@ -1,0 +1,36 @@
+
+
+.about-content{
+    border-radius: 10%;
+    
+    /* border:2px solid #0ef; */
+    text-align: center;
+}
+.about-content h2{
+   
+    text-align: center;
+    
+}
+.about-content h3{
+    text-decoration: underline;
+    text-decoration-color: #00bfff;
+    
+
+}
+.portfolio h2 {
+    text-decoration: underline #FFA500;
+}
+
+.industrial {
+    color:  #FFA500;
+}
+.about-content span1{
+    color:  #FFA500;
+    
+}
+
+.cat-cert{
+    color: #FFA500;
+    
+    
+}
